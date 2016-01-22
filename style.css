@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url('images/payments-banner-graphic.png');
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+
+ul {
+  display: flex;
+}
+
+header ul {
+  list-style-type:none;
+  text-transform: uppercase;
+}
+
+header img {
+  height: 32px;
+  width: 32px;
+  margin-right: 35px;
+}
+
+nav {
+  display: flex;
+  flex-direction : row-reverse;
+}
+
+
+
+nav ul li {
+  display:inline-block;
+  margin-right: 30px;
+
+
+}
+
+nav ul li a {
+	  color: white;
+	  text-decoration: none;
+	  text-transform: uppercase;
+}
+
+header h1 {
+  font-weight: 300;
+  margin: 150px 0 25px 0;
+}
+
+header h2 {
+  font-family:serif;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #7474a2;
+  color: #8080be;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid #dadada;
+}
+
+.payments {
+  margin: 80px 65px 80px 65px;
+  color: #4d4d4d;
+}
+
+.payments img {
+  width: 65px;
+  height: 65px;
+}
+
+ #calendar {
+  border-right: 1px solid #dadada;
+  border-spacing: 10px 50px;
+}
+
+#methods {
+  border-left: 1px solid #dadada;
+}
+
+.payments h3 {
+  font-weight:400;
+  font-size: 20px;
+}
+
+.payments p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.pricing {
+  text-transform: uppercase;
+  margin: 80px 65px 80px 65px;
+}
+
+.pricing h2 {
+  font-weight: 300;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: #4d4d4d;
+}
+
+.pricing ul {
+  flex-direction: column;
+  text-align: left;
+  list-style-type:none;
+}
+
+.pricing h2 {
+  margin-bottom: 40px;
+}
+
+.dollar {
+  color: #8080be;
+  font-size: 70px;
+}
+
+#fee {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.pricing li {
+  text-transform: none;
+  font-weight: 200;
+  font-style: 12px
+}
+
+.credit {
+  background-color: #4c535c;
+  height: 80px;
+}
+
+.credit h2 {
+  margin: 40px 65px 20px 65px;
+  color: white;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.row3{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #dadada;
+
+}
+
+.invoice {
+  flex-direction: column;
+  margin: 80px 65px 80px 65px;
+}
